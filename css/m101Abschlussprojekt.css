@@ -11,8 +11,10 @@ body{
   background-color: #333333;
 }
 p, h1 {
-  font-size: 22px;
   color: #e9e4e7;
+}
+p {
+  font-size: 18px;
 }
 
 .ulnav{
@@ -79,7 +81,11 @@ header,
 main,
 .containerHome .imgInMiddle,
 .containerHome .text1,
-footer{
+footer,
+.raksana,
+.raksanaImage,
+.julia,
+.juliaImage{
   padding: 50px;
 }
 a {
@@ -134,6 +140,7 @@ border-color:balck;
 
 .containerAbouUs {
   display: grid;
+  height: 100vh;
 
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 100px 80px auto 100px;
@@ -179,7 +186,7 @@ header {
   font-size: 26px;
   background-color: #fdfdfe;
 }
-.containerAbouUs main{
+.containerAboutUs main{
   grid-column: 1/2;
   grid-row: 2/3;
 }
