@@ -10,7 +10,7 @@ body{
   font-family: sans-serif;
   background-color: #333333;
 }
-p, h1 {
+p, h1, lable {
   color: #e9e4e7;
 }
 p {
