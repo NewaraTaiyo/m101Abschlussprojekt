@@ -79,3 +79,34 @@ a {
 a:link{
   color: lightcoral;
 }
+.Shop_container{
+  grid-template-columns: 250px auto 350px 250px;
+  grid-template-rows: 100px auto 400px 100px;
+  grid-gap: 20px;
+ display: grid;
+    
+}
+.Filter_container{
+    border-color: black;
+    border-width: thin;
+    grid-column: 1/2;
+    grid-row: 2/4; 
+       background-color: grey;
+    
+}
+.shopelemente{
+padding-left: 800px;
+    grid-column:2/3;
+    grid-row: 2/4;
+    background-color: gray;
+    
+}
+.Warenkorbinhalt{
+    grid-column:3/4;
+    grid-row: 2/4;
+    background-color: gray;
+    
+    
+}
+
+
