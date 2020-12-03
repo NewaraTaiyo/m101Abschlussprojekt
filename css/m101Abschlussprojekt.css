@@ -10,7 +10,7 @@ body{
   font-family: sans-serif;
   background-color: #333333;
 }
-p, h1, lable {
+p, h1, label {
   color: #e9e4e7;
 }
 p {
@@ -128,13 +128,13 @@ padding-left: 800px;
 
 
 }
-.shopel_container{
-float:right;
-background:green;
-text-decoration:none;
-
+.shopel_container {
+  float: right;
+  background: green;
+  text-decoration: none;
+}
 form{
-border-color:balck;
+  border-color: black;
 
 }
 
@@ -149,10 +149,6 @@ border-color:balck;
 body{
   font-family: sans-serif;
   background-color: #333333;
-}
-p, h1 {
-  font-size: 22px;
-  color: #e9e4e7;
 }
 
 .ulnav{
@@ -211,6 +207,14 @@ footer{
   grid-row: 4/5;
 }
 
+.containerKaufen {
+  display: grid;
 
+  grid-template-columns: 300px auto;
+  grid-template-rows: 100px auto;
+}
+.formularsetung{
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
