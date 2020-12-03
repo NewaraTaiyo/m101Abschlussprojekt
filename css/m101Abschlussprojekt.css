@@ -1,8 +1,9 @@
 .containerHome {
   display: grid;
+  height: 100vh;
 
   grid-template-columns: 300px auto auto 300px;
-  grid-template-rows: 100px auto 400px 100px;
+  grid-template-rows: 100px auto 100px 100px;
   grid-gap: 20px;
 }
 body{
@@ -11,7 +12,7 @@ body{
 }
 p, h1 {
   font-size: 22px;
-  color: azure;
+  color: #e9e4e7;
 }
 
 .ulnav{
@@ -37,7 +38,7 @@ header {
   grid-column: 1/5;
   grid-row: 1/2;
   font-size: 26px;
-  background-color: white;
+  background-color: #e9e4e7;
 }
 .imgSideLeft{
   grid-column: 1/2;
@@ -71,6 +72,7 @@ footer{
 
 .containerHome header,
 .containerHome main,
+.containerHome .imgInMiddle,
 .containerHome .text1,
 .containerHome footer{
   padding: 50px;
