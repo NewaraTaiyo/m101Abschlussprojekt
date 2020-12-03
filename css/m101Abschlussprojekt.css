@@ -84,7 +84,7 @@ a:link{
   color: lightcoral;
 }
 .Shop_container{
-  grid-template-columns: 250px auto 350px 250px;
+  grid-template-columns: 250px 250px auto;
   grid-template-rows: 100px auto 400px 100px;
   grid-gap: 20px;
  display: grid;
@@ -98,15 +98,11 @@ a:link{
 }
 .shopelemente{
 padding-left: 800px;
-    grid-column:2/3;
+    grid-column:2/4;
     grid-row: 2/4;
     background-color: gray;
 }
-.Warenkorbinhalt{
-    grid-column:3/4;
-    grid-row: 2/4;
-    background-color: gray;
-}
+
 .shopcontainer{
 
  caret-color: white;
@@ -119,22 +115,13 @@ padding-left: 800px;
 
 
 }
-.shopel_containerA{
-grid-row:2/3;
+.shopel_container{
+float:right;
 background:green;
+text-decoration:none;
 
-}
-.shopel_containerB{
-grid-row:2/3;
-background:green;
 
-}
-.shopel_containerC{
-grid-column:1/2;
-background:green;
-
-}
-
+ }
 
 
 
