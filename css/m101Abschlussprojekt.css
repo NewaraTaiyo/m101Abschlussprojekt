@@ -107,5 +107,37 @@ padding-left: 800px;
     grid-row: 2/4;
     background-color: gray;
 }
+.shopcontainer{
+
+ caret-color: white;
+ display: grid;
+ grid-template-row:10px 100px 100px 10px';
+ grid-template-column  20px 30px 30px 30px 20px;
+ grid-gap:5px;
+ margin:0;
+ padding:0;
+
+
+}
+.shopel_containerA{
+grid-row:2/3;
+background:green;
+
+}
+.shopel_containerB{
+grid-row:2/3;
+background:green;
+
+}
+.shopel_containerC{
+grid-column:1/2;
+background:green;
+
+}
+
+
+
+
+
 
 
