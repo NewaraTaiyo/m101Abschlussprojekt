@@ -10,6 +10,7 @@ body{
   font-family: sans-serif;
   background-color: #333333;
 }
+
 p, h1, lable {
   color: #e9e4e7;
 }
@@ -104,11 +105,13 @@ a:visited{
  display: grid;
 }
 .Filter_container{
+
     border-color: black;
     border-width: thin;
     grid-column: 1/2;
     grid-row: 2/4;
     background-color: grey;
+    font-size:40px;
 }
 .shopelemente{
 padding-left: 800px;
@@ -123,16 +126,14 @@ padding-left: 800px;
  grid-template-row:10px 100px 100px 10px;
  grid-template-column: 20px 30px 30px 30px 20px;
  grid-gap:5px;
- margin:0;
  padding:0;
-
 
 }
 .shopel_container{
+text-algin:center;
 float:right;
 background:green;
 text-decoration:none;
-
 form{
 border-color:balck;
 
