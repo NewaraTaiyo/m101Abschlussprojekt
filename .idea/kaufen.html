@@ -2,46 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Warenkorb</title>
+    <link rel="stylesheet" href="../css/m101Abschlussprojekt.css">
+    <title>R&J Home</title>
+</head>
+<body>
+<div class="containerHome">
+    <header>
+        <div class="navigation">
+            <ul class="ulnav" >
 
- <form >
-     <h1>Liefer Addresse</h1>
-
-     <label>Herr</label><input type="" name="Herr">
-     <label>Frau</label><input type="checkbox" name="Frau">
+                <li class="navl"> <a href="home.html">Home</a></li>
+                <li class="navl"><a href="shop.html">Shop</a></li>
+                <li class="navl"><a href="Ueber_uns.html">About us</a></li>
+                <li class="bildnav"><a href="kauf.html"><img src="..\img\Cart-icon.jpg"></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="formularsetung">
+ <form  action="https://formlog.offline.ch" method="post">
+     <h1>Lieferaddresse</h1>
+     <label>Herr        </label><input type="checkbox" name="Frau">
+     <label>Frau        </label><input type="checkbox" name="Frau">
      <label>None Binary </label><input type="checkbox" name="None binary">
-     <label>Firma</label><input type="checkbox" name="Firma">
+     <label>Firma       </label><input type="checkbox" name="Firma">
      <br>
-     <label for="Vorname">Vorname:</label>
+     <label for="Vorname">Vorname:</label><br>
      <input type="text" id="IVorname" name="IVorname"><br>
-     <label for="Nachname">Nachname:</label>
+     <label for="Nachname">Nachname:</label><br>
      <input type="text" id="INachaneme" name="INachname"><br>
-     <label for="Strasse">Strasse:</label>
+     <label for="Strasse">Strasse:</label><br>
      <input type="text" id="IStrasse" name="IStrasse"><br>
-     <label for="Nummer">Nummer:</label>
+     <label for="Nummer">Nummer:</label><br>
      <input type="text" id="INummer" name="INummer"><br>
-     <label for="PLZ">PLZ:</label>
+     <label for="PLZ">PLZ:</label><br>
      <input type="text" id="IPLZ" name="IPLZ"><br>
-     <label for="Ort">Ort:</label>
+     <label for="Ort">Ort:</label><br>
      <input type="text" id="IOrt" name="IOrt"><br><br>
-     <label for="E-mail">E-mail:</label>
+     <label for="E-mail">E-mail:</label><br>
      <input type="email" id="IE-mail" name=""><br>
-     <label for="Telefonnummer">Telefonnummer:</label>
+     <label for="Telefonnummer">Telefonnummer:</label><br>
      <input type="tel" id="ITelefonummer" name="ITelefonmummer"><br>
-     <label for="Geburtsdatum">Geburtsdatum:</label>
-     <input type="date" id="IGD" name="IGD"><br>
+     <label for="Geburtsdatum">Geburtsdatum :</label><br>
+     <input type="date" id="IGD" name="IGD"><br><br>
 
 
-     <input type="Submit" id="Submit" name="Submit" value="Submit"><br>
+     <input type="Submit" id="Submit" name="Submit" value="Submit" onclick="alter"><br>
 
 
  </form>
+    </div>
 
 
-
-
-</head>
-<body>
+</div>
 
 </body>
+
 </html>
