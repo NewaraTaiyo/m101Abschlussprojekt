@@ -16,17 +16,17 @@ p, h1, label {
 p {
   font-size: 18px;
 }
-
 .ulnav{
   list-style-type: none;
 }
 .bildnav{
   margin-top: -75px;
-  float: right;
+ display:flex;
+  display: inline-block;
 }
 .navl{
   text-decoration: none;
-  float: left;
+  flex-direction: row-reverse;
   margin-top: -30px;
   margin-left: 20px;
   list-style-type: none;
@@ -37,7 +37,6 @@ p {
 }
 .logo {
   text-decoration: none;
-  float: left;
   margin-top: -60px;
   list-style-type: none;
 }
@@ -109,6 +108,7 @@ a:visited{
     grid-column: 1/2;
     grid-row: 2/4;
     background-color: grey;
+    font-size:50px;
 }
 .shopelemente{
 padding-left: 800px;
@@ -150,7 +150,12 @@ body{
   font-family: sans-serif;
   background-color: #333333;
 }
-
+navigation{
+display:flex;
+display:inline-block;
+display:row;
+flex-wrap:wrap;
+}
 .ulnav{
   list-style-type: none;
 }
@@ -160,7 +165,6 @@ body{
 }
 .navl{
   text-decoration: none;
-  float: left;
   margin-top: -30px;
   margin-left: 20px;
   list-style-type: none;
