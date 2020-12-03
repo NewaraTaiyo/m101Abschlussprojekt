@@ -21,6 +21,7 @@ p {
  text-decoration: none;
  display:flex;
 flex-direction:row;
+
  list-style-type: none;
   flex-wrap: wrap;
 
@@ -48,10 +49,6 @@ margin-top:-20px;
 font-size:100%;
 
 }
-
-
-
-
 .logo {
   text-decoration: none;
   list-style-type: none;
@@ -63,7 +60,7 @@ header {
   font-size: 26px;
   background-color: #fdfdfe;
 }
-.imgSideLeft{
+.sidebarLeft{
   grid-column: 1/2;
   grid-row: 2/4;
 }
@@ -79,7 +76,7 @@ main{
   grid-column: 3/4;
   grid-row: 3/4;
 }
-.imgSideRight{
+.sidebarRight{
   grid-column: 4/5;
   grid-row: 2/4;
 }
@@ -94,14 +91,11 @@ footer{
 }
 header,
 main,
-.containerHome .imgInMiddle,
 .containerHome .text1,
 footer,
 .raksana,
-.raksanaImage,
-.julia,
-.juliaImage{
-  padding: 50px;
+.julia {
+  padding: 40px;
 }
 a {
   text-decoration: none;
@@ -166,7 +160,7 @@ form{
 
 }
 
-.containerAbouUs {
+.containerAboutUs {
   display: grid;
   height: 100vh;
 
@@ -179,6 +173,12 @@ body{
   background-color: #333333;
 }
 
+.logo {
+  text-decoration: none;
+  float: left;
+  margin-top: -60px;
+  list-style-type: none;
+}
 
 header {
   grid-column: 1/5;
