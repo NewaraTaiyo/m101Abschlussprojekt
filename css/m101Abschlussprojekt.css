@@ -3,9 +3,10 @@
   height: 100vh;
 
   grid-template-columns: 300px auto auto 300px;
-  grid-template-rows: 100px auto 100px 100px;
+  grid-template-rows: 100px auto 100px auto 100px;
   grid-gap: 20px;
 }
+/*font*/
 body{
   font-family: 'Major Mono Display', monospace;
   background-color: #333333;
@@ -17,6 +18,28 @@ p {
   font-size: 18px;
   }
 
+header,
+main,
+.containerHome .text1,
+footer,
+.raksana,
+.julia,
+.contactInfo{
+  padding: 40px;
+}
+
+/*link*/
+a {
+  text-decoration: none;
+}
+a:link{
+  color: lightcoral;
+}
+a:visited{
+  color: lightcoral;
+}
+
+/*navigation*/
 .ulnav{
  text-decoration: none;
  display:flex;
@@ -80,6 +103,7 @@ main{
   grid-column: 4/5;
   grid-row: 2/4;
 }
+
 footer{
   grid-column: 1/5;
   grid-row: 4/5;
@@ -89,24 +113,7 @@ footer{
   display: flex;
   justify-content: space-around;
 }
-header,
-main,
-.containerHome .text1,
-footer,
-.raksana,
-.julia,
-.contactInfo{
-  padding: 40px;
-}
-a {
-  text-decoration: none;
-}
-a:link{
-  color: lightcoral;
-}
-a:visited{
-  color: lightcoral;
-}
+
 .Shop_container{
   grid-template-columns: 300px 79% 1% ;
   grid-template-rows: 100px 500px auto auto ;
@@ -221,5 +228,47 @@ footer{
 .formularsetung{
   grid-column: 2/3;
   grid-row: 2/3;
+}
+
+@media screen and (max-width: 1400px) {
+  .containerHome {
+    display: grid;
+    height: 100vh;
+
+    grid-template-columns: auto auto 300px;
+    grid-template-rows: 100px auto 100px auto auto 100px;
+    grid-gap: 20px;
+  }
+  header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 26px;
+    background-color: #fdfdfe;
+  }
+  .sidebarLeft{
+    grid-column: 3/4;
+    grid-row: 2/4;
+  }
+  main{
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+  .imgInMiddle{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .text1{
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .sidebarRight{
+    grid-column: 3/4;
+    grid-row: 4/6;
+  }
+
+  footer{
+    grid-column: 1/4;
+    grid-row: 6/7;
+  }
 }
 
