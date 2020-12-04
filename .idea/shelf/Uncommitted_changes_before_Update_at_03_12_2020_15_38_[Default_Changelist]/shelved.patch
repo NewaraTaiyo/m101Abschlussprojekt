@@ -1,0 +1,24 @@
+Index: css/m101Abschlussprojekt.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.containerHome {\r\n  display: grid;\r\n  height: 100vh;\r\n\r\n  grid-template-columns: 300px auto auto 300px;\r\n  grid-template-rows: 100px auto 100px 100px;\r\n  grid-gap: 20px;\r\n}\r\nbody{\r\n  font-family: sans-serif;\r\n  background-color: #333333;\r\n}\r\n\r\np, h1, lable {\r\n  color: #e9e4e7;\r\n}\r\np {\r\n  font-size: 18px;\r\n}\r\n\r\n.ulnav{\r\n  list-style-type: none;\r\n}\r\n.bildnav{\r\n  margin-top: -75px;\r\n  float: right;\r\n}\r\n.navl{\r\n  text-decoration: none;\r\n  float: left;\r\n  margin-top: -30px;\r\n  margin-left: 20px;\r\n  list-style-type: none;\r\n}\r\n.navl:first-of-type{\r\n\r\n  margin-left: -20px;\r\n}\r\n.logo {\r\n  text-decoration: none;\r\n  float: left;\r\n  margin-top: -60px;\r\n  list-style-type: none;\r\n}\r\n\r\nheader {\r\n  grid-column: 1/5;\r\n  grid-row: 1/2;\r\n  font-size: 26px;\r\n  background-color: #fdfdfe;\r\n}\r\n.imgSideLeft{\r\n  grid-column: 1/2;\r\n  grid-row: 2/4;\r\n}\r\nmain{\r\n  grid-column: 2/3;\r\n  grid-row: 2/4;\r\n}\r\n.imgInMiddle{\r\n  grid-column: 3/4;\r\n  grid-row: 2/3;\r\n}\r\n.text1{\r\n  grid-column: 3/4;\r\n  grid-row: 3/4;\r\n}\r\n.imgSideRight{\r\n  grid-column: 4/5;\r\n  grid-row: 2/4;\r\n}\r\nfooter{\r\n  grid-column: 1/5;\r\n  grid-row: 4/5;\r\n}\r\n\r\n.containerFooter {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\nheader,\r\nmain,\r\n.containerHome .imgInMiddle,\r\n.containerHome .text1,\r\nfooter,\r\n.raksana,\r\n.raksanaImage,\r\n.julia,\r\n.juliaImage{\r\n  padding: 50px;\r\n}\r\na {\r\n  text-decoration: none;\r\n}\r\na:link{\r\n  color: lightcoral;\r\n}\r\na:visited{\r\n  color: lightcoral;\r\n}\r\n.Shop_container{\r\n  grid-template-columns: 250px 250px auto;\r\n  grid-template-rows: 100px auto 400px 100px;\r\n  grid-gap: 20px;\r\n display: grid;\r\n}\r\n.Filter_container{\r\n\r\n    border-color: black;\r\n    border-width: thin;\r\n    grid-column: 1/2;\r\n    grid-row: 2/4;\r\n    background-color: grey;\r\n    font-size:40px;\r\n}\r\n.shopelemente{\r\npadding-left: 800px;\r\n    grid-column:2/4;\r\n    grid-row: 2/4;\r\n    background-color: gray;\r\n}\r\n.shopcontainer{\r\n\r\n caret-color: white;\r\n display: grid;\r\n grid-template-row:10px 100px 100px 10px;\r\n grid-template-column: 20px 30px 30px 30px 20px;\r\n grid-gap:5px;\r\n padding:0;\r\n\r\n}\r\n.shopel_container{\r\ntext-algin:center;\r\nfloat:right;\r\nbackground:green;\r\ntext-decoration:none;\r\nform{\r\nborder-color:balck;\r\n\r\n}\r\n\r\n.containerAbouUs {\r\n  display: grid;\r\n  height: 100vh;\r\n\r\n  grid-template-columns: auto auto auto auto;\r\n  grid-template-rows: 100px 80px auto 100px;\r\n  grid-gap: 20px;\r\n}\r\nbody{\r\n  font-family: sans-serif;\r\n  background-color: #333333;\r\n}\r\np, h1 {\r\n  font-size: 22px;\r\n  color: #e9e4e7;\r\n}\r\n\r\n.ulnav{\r\n  list-style-type: none;\r\n}\r\n.bildnav{\r\n  margin-top: -75px;\r\n  float: right;\r\n}\r\n.navl{\r\n  text-decoration: none;\r\n  float: left;\r\n  margin-top: -30px;\r\n  margin-left: 20px;\r\n  list-style-type: none;\r\n}\r\n.navl:first-of-type{\r\n\r\n  margin-left: -20px;\r\n}\r\n.logo {\r\n  text-decoration: none;\r\n  float: left;\r\n  margin-top: -60px;\r\n  list-style-type: none;\r\n}\r\n\r\nheader {\r\n  grid-column: 1/5;\r\n  grid-row: 1/2;\r\n  font-size: 26px;\r\n  background-color: #fdfdfe;\r\n}\r\n.containerAboutUs main{\r\n  grid-column: 1/2;\r\n  grid-row: 2/3;\r\n}\r\n.raksana {\r\n  grid-column: 1/2;\r\n  grid-row: 3/4;\r\n}\r\n.raksanaImage{\r\n  grid-column: 2/3;\r\n  grid-row: 3/4;\r\n}\r\n.julia {\r\n  grid-column: 3/4;\r\n  grid-row: 3/4;\r\n}\r\n.juliaImage{\r\n  grid-column: 4/5;\r\n  grid-row: 3/4;\r\n}\r\nfooter{\r\n  grid-column: 1/5;\r\n  grid-row: 4/5;\r\n}\r\n\r\n\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/m101Abschlussprojekt.css b/css/m101Abschlussprojekt.css
+--- a/css/m101Abschlussprojekt.css	(revision 77109bab59c6a23d3fc0db3ae5f979cd37880157)
++++ b/css/m101Abschlussprojekt.css	(date 1607006112817)
+@@ -127,10 +127,12 @@
+  grid-template-column: 20px 30px 30px 30px 20px;
+  grid-gap:5px;
+  padding:0;
++   text-align: center;
++
++
+ 
+ }
+ .shopel_container{
+-text-algin:center;
+ float:right;
+ background:green;
+ text-decoration:none;

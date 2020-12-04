@@ -1,0 +1,44 @@
+Index: css/m101Abschlussprojekt.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.containerHome {\r\n  display: grid;\r\n  height: 100vh;\r\n\r\n  grid-template-columns: 300px auto auto 300px;\r\n  grid-template-rows: 100px auto 100px 100px;\r\n  grid-gap: 20px;\r\n}\r\nbody{\r\n  font-family: 'Major Mono Display', monospace;\r\n  background-color: #333333;\r\n}\r\np, h1, label {\r\n  color: #e9e4e7;\r\n}\r\np {\r\n  font-size: 18px;\r\n  }\r\n\r\n.ulnav{\r\n text-decoration: none;\r\n display:flex;\r\nflex-direction:row;\r\n\r\n list-style-type: none;\r\n  flex-wrap: wrap;\r\n\r\n\r\n\r\n}\r\n\r\n.navl:nth-of-type(1){\r\nmargin-top:-50px;\r\nmargin-right:3%;\r\n}\r\n.navl:last-of-type{\r\nmargin-top:-75px;\r\nmargin-left:auto;\r\nmargin-right:0%;\r\njustify-content:flex-end;\r\nalign-content:flex-end;\r\nflex-shrink:1;\r\n\r\n\r\n}\r\n.navl{\r\nmargin-left:3%;\r\nmargin-top:-20px;\r\nfont-size:100%;\r\n\r\n}\r\n.logo {\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nheader {\r\n  grid-column: 1/5;\r\n  grid-row: 1/2;\r\n  font-size: 26px;\r\n  background-color: #fdfdfe;\r\n}\r\n.sidebarLeft{\r\n  grid-column: 1/2;\r\n  grid-row: 2/4;\r\n}\r\nmain{\r\n  grid-column: 2/3;\r\n  grid-row: 2/4;\r\n}\r\n.imgInMiddle{\r\n  grid-column: 3/4;\r\n  grid-row: 2/3;\r\n}\r\n.text1{\r\n  grid-column: 3/4;\r\n  grid-row: 3/4;\r\n}\r\n.sidebarRight{\r\n  grid-column: 4/5;\r\n  grid-row: 2/4;\r\n}\r\nfooter{\r\n  grid-column: 1/5;\r\n  grid-row: 4/5;\r\n}\r\n\r\n.containerFooter {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\nheader,\r\nmain,\r\n.containerHome .text1,\r\nfooter,\r\n.raksana,\r\n.julia,\r\n.contactInfo{\r\n  padding: 40px;\r\n}\r\na {\r\n  text-decoration: none;\r\n}\r\na:link{\r\n  color: lightcoral;\r\n}\r\na:visited{\r\n  color: lightcoral;\r\n}\r\n.Shop_container{\r\n  grid-template-columns: 300px 79% 1% ;\r\n  grid-template-rows: 100px 500px auto auto ;\r\n  grid-gap: 20px;\r\n display: grid;\r\n}\r\n.Filter_container{\r\n    border-color: black;\r\n    border-width: thin;\r\n    grid-column: 1/2;\r\n    grid-row: 2/4;\r\n    background-color: grey;\r\n    font-size:50px;\r\n}\r\n.shopelemente{\r\nmargin-right:10px;\r\ngrid-column:2/2;\r\ngrid-row:2/3;\r\nbackground-color: gray;\r\n}\r\n.shopcontainer{\r\n\r\n caret-color: white;\r\n display: grid;\r\n grid-template-row:5% 45% 45% 5%;\r\n grid-template-column: 5% 30%30% 30% 5%;\r\n grid-gap:5px;\r\n margin:0;\r\n margin-top:10px;\r\n padding:0;\r\n\r\n\r\n}\r\n.shopel_container{\r\n  background: yellow;\r\n  text-decoration: none;\r\n  grid-column:2/3;\r\n\r\n}\r\n.shopel_container:nth-of-type(2n) {\r\n  background: blue;\r\n  grid-column:3/4;\r\n\r\n}\r\n.shopel_container:nth-of-type(3n) {\r\n  background: green;\r\n  grid-column:4/5;\r\n\r\n}\r\nform{\r\n  border-color: black;\r\n\r\n}\r\n\r\n.containerAboutUs {\r\n  display: grid;\r\n  height: 100vh;\r\n\r\n  grid-template-columns: 300px auto auto auto;\r\n  grid-template-rows: 100px 80px auto 400px auto;\r\n  grid-gap: 20px;\r\n}\r\n\r\n.logo {\r\n  text-decoration: none;\r\n  float: left;\r\n  margin-top: -60px;\r\n  list-style-type: none;\r\n}\r\n\r\nheader {\r\n  grid-column: 1/5;\r\n  grid-row: 1/2;\r\n  font-size: 26px;\r\n  background-color: #fdfdfe;\r\n}\r\n.containerAboutUs main{\r\n  grid-column: 1/2;\r\n  grid-row: 2/3;\r\n}\r\n.raksana {\r\n  grid-column: 1/2;\r\n  grid-row: 3/4;\r\n}\r\n.raksanaImage{\r\n  grid-column: 2/3;\r\n  grid-row: 3/4;\r\n}\r\n.julia {\r\n  grid-column: 3/4;\r\n  grid-row: 3/4;\r\n}\r\n.juliaImage{\r\n  grid-column: 4/5;\r\n  grid-row: 3/4;\r\n}\r\n.contactInfo {\r\n  grid-column: 1/2;\r\n  grid-row: 4/5;\r\n}\r\nfooter{\r\n  grid-column: 1/5;\r\n  grid-row: 5/6;\r\n}\r\n\r\n.containerKaufen {\r\n  display: grid;\r\n\r\n  grid-template-columns: 300px auto;\r\n  grid-template-rows: 100px auto;\r\n}\r\n.formularsetung{\r\n  grid-column: 2/3;\r\n  grid-row: 2/3;\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/m101Abschlussprojekt.css b/css/m101Abschlussprojekt.css
+--- a/css/m101Abschlussprojekt.css	(revision 133858666aa7dbe71febae79c941c7e6a18c44d4)
++++ b/css/m101Abschlussprojekt.css	(date 1607065279004)
+@@ -108,7 +108,7 @@
+   color: lightcoral;
+ }
+ .Shop_container{
+-  grid-template-columns: 300px 79% 1% ;
++  grid-template-columns: 300px auto 1% ;
+   grid-template-rows: 100px 500px auto auto ;
+   grid-gap: 20px;
+  display: grid;
+@@ -131,8 +131,8 @@
+ 
+  caret-color: white;
+  display: grid;
+- grid-template-row:5% 45% 45% 5%;
+- grid-template-column: 5% 30%30% 30% 5%;
++ grid-template-row:5% auto auto 5%;
++ grid-template-column: 5% auto auto autp 5%;
+  grid-gap:5px;
+  margin:0;
+  margin-top:10px;
+@@ -145,11 +145,13 @@
+   text-decoration: none;
+   grid-column:2/3;
+ 
++
+ }
+ .shopel_container:nth-of-type(2n) {
+   background: blue;
+   grid-column:3/4;
+ 
++
+ }
+ .shopel_container:nth-of-type(3n) {
+   background: green;

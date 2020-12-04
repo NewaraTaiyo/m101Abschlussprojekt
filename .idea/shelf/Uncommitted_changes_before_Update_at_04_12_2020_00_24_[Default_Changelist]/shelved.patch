@@ -1,0 +1,103 @@
+Index: .idea/shop.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <link rel=\"stylesheet\" href=\"../css/m101Abschlussprojekt.css\">\r\n  <title>R&J Shop</title>\r\n</head>\r\n<body>\r\n<div class=\"Shop_container\">\r\n<header>\r\n  <div class=\"navigation\">\r\n    <ul class=\"ulnav\" >\r\n      <li class=\"navl\"><img src=\"../img/logoR&J.PNG\" href=\"home.html\"></img></li>\r\n      <li class=\"navl\"> <a href=\"homeSeite.html\">Home</a></li>\r\n      <li class=\"navl\"><a href=\"shop.html\">Shop</a></li>\r\n      <li class=\"navl\"><a href=\"aboutUs.html\">About us</a></li>\r\n      <li class=\"navl\"><a href=\"kaufen.html\"><img src=\"..\\img\\Cart-icon.jpg\"></a></li>\r\n    </ul>\r\n  </div>\r\n</header>\r\n\r\n\r\n<aside class=\"Filter_container\">\r\n\r\n  <a href=\"PC_Games.html\">PC & Games </a><br>\r\n  <a href=\"PC.html\"> PC </a>\r\n  <br>\r\n  <a href=\"Games.html\"> Games</a>\r\n\r\n</aside>\r\n<aside class=\"shopelemente\">\r\n  <div class=\"shopcontainer\">\r\n\r\n      <div class=\"shopel_container\">\r\n        <img src=\"\" alt=\"MinecraftBild\">\r\n        <p>Minecraft: 35.00 CHF</p>\r\n\r\n      </div>\r\n      <div class=\"shopel_container\">\r\n        <img src=\"\" alt=\"PacManBild\">\r\n        <p>PacMan: 10.00 CHF</p>\r\n      </div>\r\n      <div class=\"shopel_container\">\r\n        <img src=\"\" alt=\"TetrisBild\">\r\n        <p>Tetris: 20.00 CHF</p>\r\n\r\n      </div>\r\n      <div class=\"shopel_container\">\r\n        <img src=\"\" alt=\"g\">\r\n\r\n      </div>\r\n      <div class=\"shopel_container\">\r\n        <img src=\"\" alt=\"g\">\r\n      </div>\r\n      <div class=\"shopel_container\">\r\n        <img src=\"\" alt=\"g\">\r\n\r\n      </div>\r\n\r\n\r\n  </div>\r\n\r\n\r\n</aside>\r\n<aside class=\"Warenkorbinhalt\"></aside>\r\n<footer class=\"fuss\"></footer>\r\n</div>\r\n</body>\r\n\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shop.html b/.idea/shop.html
+--- a/.idea/shop.html	(revision c9b80e6ed2dc7fe79bd0b6d12ab439ac19c6cbb6)
++++ b/.idea/shop.html	(date 1607033567450)
+@@ -32,29 +32,30 @@
+   <div class="shopcontainer">
+ 
+       <div class="shopel_container">
+-        <img src="" alt="MinecraftBild">
+-        <p>Minecraft: 35.00 CHF</p>
++        <img src="../img/fortnite.png" width="250px" height="204px" alt="fortnite">
++        <p>Fortnite: Gratis</p>
+ 
+       </div>
+       <div class="shopel_container">
+-        <img src="" alt="PacManBild">
+-        <p>PacMan: 10.00 CHF</p>
++        <img src="../img/minecraft.png" width="250px" height="230px" alt="PacManBild">
++        <p>Minecraft: 10.00 CHF</p>
+       </div>
+       <div class="shopel_container">
+-        <img src="" alt="TetrisBild">
++        <img src="../img/Tetris.jpg" width="250px" height="166px" alt="TetrisBild">
+         <p>Tetris: 20.00 CHF</p>
+ 
+       </div>
+       <div class="shopel_container">
+-        <img src="" alt="g">
+-
++        <img src="../img/ueberraschungspaket.jpg" width="250px" height="167px" alt="ueberraschung">
++        <p>Suprise package: 30CHF</p>
+       </div>
+       <div class="shopel_container">
+-        <img src="" alt="g">
++        <img src="../img/Dark_Woods.jpg" width="250px" height="167px" alt="g">
++        <p>Dark knight Woods: 40CHF</p>
+       </div>
+       <div class="shopel_container">
+-        <img src="" alt="g">
+-
++        <img src="../img/The knights.jpg" width="250px" height="187px" alt="The knights evil">
++<p>The knights Evil: 50CHF</p>
+       </div>
+ 
+ 
+Index: css/HTML_Files/Shop.html
+===================================================================
+diff --git a/css/HTML_Files/Shop.html b/css/HTML_Files/Shop.html
+deleted file mode 100644
+--- a/css/HTML_Files/Shop.html	(revision c9b80e6ed2dc7fe79bd0b6d12ab439ac19c6cbb6)
++++ /dev/null	(revision c9b80e6ed2dc7fe79bd0b6d12ab439ac19c6cbb6)
+@@ -1,44 +0,0 @@
+-  <!DOCTYPE html>
+-  <html>
+-    <head>
+-      <meta charset="utf-8">
+-      <title>Meine Testseite</title>
+-            <link rel="stylesheet" href="Design.css">
+-        <link rel="preconnect" href="https://fonts.gstatic.com">
+-        <link rel="preconnect" href="https://fonts.gstatic.com">
+-<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+-        
+-      </head>
+-      
+-        
+-        <body class="Shop_container">
+-           <header class="navcontainer">
+-                <div class="navigation">
+-            <ul class="ulnav" >
+-              <li> <a href="Home.html"><img src="" alt="Logo"></a></li>
+-             <li class="navl"> <a href="home.html">Home</a></li>   
+-            <li class="navl"><a href="Shop.html">Shop</a></li>
+-            <li class="navl"><a href="Ueber_uns.html">About us</a></li>   
+-            <li class="bildnav"><a href="kauf.html"><img src="..\BracketsDocuments\Cart-icon.png" alt="Warenkorb"></a></li>
+-
+-
+-                
+-            </ul>
+-                    </div>
+-       </header>
+-            
+-            
+-<aside class="Filter_container">
+-   
+-     <a href="PC_Games.html">PC & Games </a><br>
+-    <a href="PC.html"> PC </a>
+-    <br>
+-     <a href="Games.html"> Games</a>
+-    
+-</aside>      
+-      <aside class="shopelemente"></aside>
+-            <aside class="Warenkorbinhalt"></aside>
+-            <footer class="fuss"></footer>
+-      </body>
+-    
+-    </html>
+\ No newline at end of file
