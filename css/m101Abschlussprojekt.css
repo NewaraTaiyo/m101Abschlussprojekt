@@ -143,11 +143,12 @@ grid-column:2/2;
 grid-row:2/3;
 background-color: gray;
 }
-.shopcontainer{
+
+.shopcontainer{}
 
  caret-color: white;
  display: grid;
- grid-template-row:auto 300px 300px auto;
+ grid-template-row:auto 50% 50%px auto;
  grid-template-column: 5% 250px 250px 250px 5%;
  grid-gap:5px;
  margin:0;
@@ -165,13 +166,13 @@ background-color: gray;
 
 }
 .shopel_container:nth-of-type(2n) {
-  background: #2424cf;
+  background: black;
   grid-column:3/4;
 
 
 }
 .shopel_container:nth-of-type(3n) {
-  background: #0c620c;
+  background: black;
   grid-column:4/5;
 
 }
@@ -181,6 +182,43 @@ background-color: gray;
 
 }
 .shopel_container:nth-of-type(5n) {
+  background: #0c620c;
+  grid-column:3/4;
+
+
+}
+.shopel_container:nth-of-type(6n) {
+  background: #0c620c;
+  grid-column:4/5;
+
+
+}
+.shopel_container:nth-of-type(7n) {
+  background: #0c620c;
+    grid-column:2/3;
+
+
+}
+
+.shopel_container:nth-of-type(8n) {
+  background: #0c620c;
+  grid-column:3/4;
+
+
+}
+.shopel_container:nth-of-type(9n) {
+  background: #0c620c;
+  grid-column:4/5;
+
+
+}
+.shopel_container:nth-of-type(10n) {
+  background: #0c620c;
+    grid-column:2/3;
+
+
+}
+.shopel_container:nth-of-type(11n) {
   background: #0c620c;
   grid-column:3/4;
 
