@@ -4,7 +4,7 @@ body{
   font-family: 'Major Mono Display', monospace;
   background-color: #333333;
 }
-p, h1, label, blockquote{
+p, h1, label, blockquote, .cartCounter{
   color: #e9e4e7;
 }
 p {
@@ -30,6 +30,9 @@ a:link{
 }
 a:visited{
   color: lightcoral;
+}
+.navigationShop:hover {
+  background-color: #c31f3c;
 }
 
 /*navigation <------------------------------------------------------------------------------------------------------->*/
@@ -138,10 +141,10 @@ footer{
     font-size:50px;
 }
 .shopelemente{
-margin-right:10px;
-grid-column:2/2;
-grid-row:2/3;
-background-color: gray;
+  margin-right:10px;
+  grid-column:2/2;
+  grid-row:2/3;
+  background-color: gray;
 }
 
 .shopcontainer {
@@ -227,6 +230,13 @@ background-color: gray;
 form{
   border-color: black;
 
+}
+
+.cartCounter {
+  border-radius: 50%;
+  width: 30px;
+  background-color: #1485dc;
+  text-align: center;
 }
 
 /*about us <------------------------------------------------------------------------------------------------------->*/
