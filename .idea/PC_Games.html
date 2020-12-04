@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/m101Abschlussprojekt.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <title>R&J Shop</title>
+</head>
+<body>
+<div class="Shop_container">
+    <header>
+      <div class="navigation">
+        <ul class="ulnav" >
+          <li class="navl" id="logo"><a href="homeSeite.html"><img src="../img/logoR&J.PNG" alt="Logo R&J"></a></li>
+          <li class="navl"> <a href="homeSeite.html">Home</a></li>
+          <li class="navl"><a href="shop.html">Shop</a></li>
+          <li class="navl"><a href="AboutUs.html">About us</a></li>
+          <li class="navl"><a href="kaufen.html"><img src="../img/Cart-icon.jpg" alt="Warenkorb"></a></li>
+          <input type="text" id="gekauft" value="0" class="cartCounter">
+        </ul>
+      </div>
+    </header>
+
+  <aside class="Filter_container">
+    <a href="PC_Games.html">PC & Games </a><br>
+    <a href="PC.html"> PC </a>
+    <br>
+    <a href="Games.html">Games</a>
+  </aside>
+  <aside class="shopelemente">
+    <div class="shopcontainer">
+      <div class="shopel_container">
+        <img src="../img/MSI.jpg" width="166" height="250" alt="MSI">
+        <p>MSI: 5000.00 CHF</p><button onclick="buy();">Buy</button>
+      </div>
+      <div class="shopel_container">
+        <img src="../img/imac.jpg" width="250" height="166" alt="IMac">
+        <p>IMac: 1300.00 CHF</p><button onclick="buy();">Buy</button>
+      </div>
+      <div class="shopel_container">
+        <img src="../img/Lenovo.jpg" width="250" height="167" alt="Lenovo">
+        <p>Lenovo: 800CHF</p><button onclick="buy();">Buy</button>
+      </div>
+      <div class="shopel_container">
+        <img src="../img/hp-hq-tre-core-i5-laptop.jpg" width="250" height="250" alt="hp">
+        <p>HP Core i5: 800CHF</p><button onclick="buy();">Buy</button>
+      </div>
+      <div class="shopel_container">
+        <img src="../img/hp-core-i3-laptop.jpg" width="250" height="250" alt="HPC3">
+        <p>HP Core i3: 300CHF</p><button onclick="buy();">Buy</button>
+      </div>
+      <div class="shopel_container">
+        <img src="../img/fortnite.png" width="250" height="204" alt="fortnite">
+        <p>Fortnite: Gratis</p><button onclick="buy();">Buy</button>
+      </div>
+      <div class="shopel_container">
+        <img src="../img/minecraft.png" width="250" height="230" alt="PacManBild">
+        <p>Minecraft: 10.00 CHF</p><button onclick="buy();">Buy</button>
+      </div>
+      <div class="shopel_container">
+        <img src="../img/Tetris.jpg" width="250" height="166" alt="TetrisBild">
+        <p>Tetris: 20.00 CHF</p><button onclick="buy();">Buy</button>
+      </div>
+      <div class="shopel_container">
+        <img src="../img/ueberraschungspaket.jpg" width="250" height="167" alt="ueberraschung">
+        <p>Suprise package: 30CHF</p><button onclick="buy();">Buy</button>
+      </div>
+      <div class="shopel_container">
+        <img src="../img/Dark_Woods.jpg" width="250" height="167" alt="g">
+        <p>Dark knight Woods: 40CHF</p><button onclick="buy();">Buy</button>
+      </div>
+    </div>
+    <script>
+      var zahl=0;
+      function buy(){
+        zahl++;
+        document.getElementById('gekauft').value=zahl;
+      }
+    </script>
+  </aside>
+  <aside class="Warenkorbinhalt"></aside>
+  <footer class="fuss"></footer>
+</div>
+</body>
+</html>
