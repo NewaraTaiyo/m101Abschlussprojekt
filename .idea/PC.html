@@ -15,6 +15,7 @@
                 <li class="navl"><a href="shop.html">Shop</a></li>
                 <li class="navl"><a href="aboutUs.html">About us</a></li>
                 <li class="navl"><a href="kaufen.html"><img src="..\img\Cart-icon.jpg"></a></li>
+                <input type="text" id="gekauft" value="0">
             </ul>
         </div>
     </header>
@@ -33,35 +34,46 @@
 
             <div class="shopel_container">
                 <img src="../img/luis-villasmil-ITFwHdPEED0-unsplash.jpg" width="250px" height="166px" alt="fortnite">
-                <p>Fortnite: Gratis</p>
+                <p>Fortnite: Gratis</p><button onclick="buy();">Buy</button>
 
             </div>
             <div class="shopel_container">
                 <img src="../img/MSI.jpg" width="250px" height="376px" alt="MSI">
-                <p>MSI: 5000.00 CHF</p>
+                <p>MSI: 5000.00 CHF</p><button onclick="buy();">Buy</button>
             </div>
             <div class="shopel_container">
                 <img src="../img/imac.jpg" width="250px" height="166px" alt="IMac">
-                <p>IMac: 1300.00 CHF</p>
+                <p>IMac: 1300.00 CHF</p><button onclick="buy();">Buy</button>
 
             </div>
             <div class="shopel_container">
                 <img src="../img/Lenovo.jpg" width="250px" height="167px" alt="Lenovo">
-                <p>Lenovo: 800CHF</p>
+                <p>Lenovo: 800CHF</p><button onclick="buy();">Buy</button>
             </div>
             <div class="shopel_container">
                 <img src="../img/hp-hq-tre-core-i5-laptop.jpg" width="250px" height="250px" alt="hp">
-                <p>HP Core i5: 800CHF</p>
+                <p>HP Core i5: 800CHF</p><button onclick="buy();">Buy</button>
             </div>
             <div class="shopel_container">
                 <img src="../img/hp-core-i3-laptop.jpg" width="250px" height="250px" alt="HPC3">
-                <p>HP Core i3: 300CHF</p>
+                <p>HP Core i3: 300CHF</p><button onclick="buy();">Buy</button>
             </div>
 
 
         </div>
 
+        <script type="text/javascript">
+    var zahl=0;
+    function buy(){
+    zahl++;
+    document.getElementById('gekauft').value=zahl;
 
+
+
+    }
+
+
+</script>
     </aside>
     <aside class="Warenkorbinhalt"></aside>
     <footer class="fuss"></footer>
