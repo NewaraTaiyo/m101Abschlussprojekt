@@ -124,7 +124,7 @@ footer{
 
 /*shop <------------------------------------------------------------------------------------------------------->*/
 .Shop_container{
-  grid-template-columns: 300px 79% 1% ;
+  grid-template-columns: 300px auto 1% ;
   grid-template-rows: 100px 500px auto auto ;
   grid-gap: 20px;
  display: grid;
@@ -147,29 +147,43 @@ background-color: gray;
 
  caret-color: white;
  display: grid;
- grid-template-row:5% 45% 45% 5%;
- grid-template-column: 5% 30%30% 30% 5%;
+ grid-template-row:auto 300px 300px auto;
+ grid-template-column: 5% 250px 250px 250px 5%;
  grid-gap:5px;
  margin:0;
  margin-top:10px;
  padding:0;
 
 
+
 }
-.shopel_container{
+.shopel_container:first-of-type{
   background: #d7d72d;
   text-decoration: none;
   grid-column:2/3;
+
 
 }
 .shopel_container:nth-of-type(2n) {
   background: #2424cf;
   grid-column:3/4;
 
+
 }
 .shopel_container:nth-of-type(3n) {
   background: #0c620c;
   grid-column:4/5;
+
+}
+.shopel_container:nth-of-type(4n) {
+  background: #0c620c;
+  grid-column:2/3;
+
+}
+.shopel_container:nth-of-type(5n) {
+  background: #0c620c;
+  grid-column:3/4;
+
 
 }
 form{
