@@ -144,20 +144,20 @@ grid-row:2/3;
 background-color: gray;
 }
 
-.shopcontainer{}
+.shopcontainer {
 
- caret-color: white;
- display: grid;
- grid-template-row:auto 50% 50%px auto;
- grid-template-column: 5% 250px 250px 250px 5%;
- grid-gap:5px;
- margin:0;
- margin-top:10px;
- padding:0;
-
-
-
+  caret-color: white;
+  display: grid;
+  grid-template-row: auto 50% 50% px auto;
+  grid-template-column: 5% 250px 250px 250px 5%;
+  grid-gap: 5px;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
 }
+
+
+
 .shopel_container:first-of-type{
   background: #d7d72d;
   text-decoration: none;
@@ -479,6 +479,16 @@ footer{
   .navl:nth-of-type(1){
     margin-top:-50px;
     margin-left: -60px;
+  }
+
+  .navl:nth-of-type(2), .navl:nth-of-type(3){
+    margin-top:-40px;
+    margin-left: 15px;
+  }
+
+  .navl:nth-of-type(4){
+    margin-top:-30px;
+    margin-left: 135px;
   }
 
   .navl:last-of-type{
