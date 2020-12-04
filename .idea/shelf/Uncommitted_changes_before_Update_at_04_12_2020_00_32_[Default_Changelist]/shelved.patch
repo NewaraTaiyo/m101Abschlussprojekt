@@ -1,0 +1,11 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1607038117412)
++++ b/.gitignore	(date 1607038117412)
+@@ -0,0 +1,1 @@
++/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2020_00_24_[Default_Changelist]/fortnite.png

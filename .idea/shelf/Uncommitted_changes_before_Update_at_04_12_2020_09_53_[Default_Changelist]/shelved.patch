@@ -1,0 +1,166 @@
+Index: css/m101Abschlussprojekt.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n/*font <------------------------------------------------------------------------------------------------------->*/\r\nbody{\r\n  font-family: 'Major Mono Display', monospace;\r\n  background-color: #333333;\r\n}\r\np, h1, label, blockquote{\r\n  color: #e9e4e7;\r\n}\r\np {\r\n  font-size: 18px;\r\n  }\r\n\r\nheader,\r\nmain,\r\n.containerHome .text1,\r\nfooter,\r\n.raksana,\r\n.julia,\r\n.contactInfo{\r\n  padding: 40px;\r\n}\r\n\r\n/*link <------------------------------------------------------------------------------------------------------->*/\r\na {\r\n  text-decoration: none;\r\n}\r\na:link{\r\n  color: lightcoral;\r\n}\r\na:visited{\r\n  color: lightcoral;\r\n}\r\n\r\n/*navigation <------------------------------------------------------------------------------------------------------->*/\r\n.ulnav{\r\n text-decoration: none;\r\n display:flex;\r\nflex-direction:row;\r\n\r\n list-style-type: none;\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.navl:nth-of-type(1){\r\nmargin-top:-50px;\r\nmargin-right:3%;\r\n}\r\n\r\n.navl:last-of-type{\r\nmargin-top:-65px;\r\nmargin-left:auto;\r\nmargin-right:0;\r\njustify-content:flex-end;\r\nalign-content:flex-end;\r\nflex-shrink:1;\r\n}\r\n\r\n.navl{\r\nmargin-left:3%;\r\nmargin-top:-20px;\r\nfont-size:100%;\r\n\r\n}\r\n.logo {\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\n/*home <------------------------------------------------------------------------------------------------------->*/\r\n.containerHome {\r\n  display: grid;\r\n  height: 100vh;\r\n\r\n  grid-template-columns: 300px auto auto 300px;\r\n  grid-template-rows: 100px auto auto 100px auto 100px;\r\n  grid-gap: 20px;\r\n}\r\n\r\nheader {\r\n  grid-column: 1/5;\r\n  grid-row: 1/2;\r\n  font-size: 26px;\r\n  background-color: #fdfdfe;\r\n}\r\n\r\nblockquote{\r\n  grid-column: 1/5;\r\n  grid-row: 2/3;\r\n  font-size: 50px;\r\n  margin: 50px auto;\r\n}\r\n\r\n.sidebarLeft{\r\n  grid-column: 1/2;\r\n  grid-row: 3/5;\r\n}\r\nmain{\r\n  grid-column: 2/3;\r\n  grid-row: 3/5;\r\n}\r\n.imgInMiddle{\r\n  grid-column: 3/4;\r\n  grid-row: 3/4;\r\n}\r\n.text1{\r\n  grid-column: 3/4;\r\n  grid-row: 4/5;\r\n}\r\n.sidebarRight{\r\n  grid-column: 4/5;\r\n  grid-row: 3/5;\r\n}\r\n\r\nfooter{\r\n  grid-column: 1/5;\r\n  grid-row: 5/6;\r\n}\r\n\r\n.containerFooter {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n/*shop <------------------------------------------------------------------------------------------------------->*/\r\n.Shop_container{\r\n  grid-template-columns: 300px auto 1% ;\r\n  grid-template-rows: 100px 500px auto auto ;\r\n  grid-gap: 20px;\r\n display: grid;\r\n}\r\n.Filter_container{\r\n    border-color: black;\r\n    border-width: thin;\r\n    grid-column: 1/2;\r\n    grid-row: 2/4;\r\n    background-color: grey;\r\n    font-size:50px;\r\n}\r\n.shopelemente{\r\nmargin-right:10px;\r\ngrid-column:2/2;\r\ngrid-row:2/3;\r\nbackground-color: gray;\r\n}\r\n\r\n.shopcontainer{}\r\n\r\n caret-color: white;\r\n display: grid;\r\n grid-template-row:auto 50% 50%px auto;\r\n grid-template-column: 5% 250px 250px 250px 5%;\r\n grid-gap:5px;\r\n margin:0;\r\n margin-top:10px;\r\n padding:0;\r\n\r\n\r\n\r\n}\r\n.shopel_container:first-of-type{\r\n  background: #d7d72d;\r\n  text-decoration: none;\r\n  grid-column:2/3;\r\n\r\n\r\n}\r\n.shopel_container:nth-of-type(2n) {\r\n  background: black;\r\n  grid-column:3/4;\r\n\r\n\r\n}\r\n.shopel_container:nth-of-type(3n) {\r\n  background: black;\r\n  grid-column:4/5;\r\n\r\n}\r\n.shopel_container:nth-of-type(4n) {\r\n  background: #0c620c;\r\n  grid-column:2/3;\r\n\r\n}\r\n.shopel_container:nth-of-type(5n) {\r\n  background: #0c620c;\r\n  grid-column:3/4;\r\n\r\n\r\n}\r\n.shopel_container:nth-of-type(6n) {\r\n  background: #0c620c;\r\n  grid-column:4/5;\r\n\r\n\r\n}\r\n.shopel_container:nth-of-type(7n) {\r\n  background: #0c620c;\r\n    grid-column:2/3;\r\n\r\n\r\n}\r\n\r\n.shopel_container:nth-of-type(8n) {\r\n  background: #0c620c;\r\n  grid-column:3/4;\r\n\r\n\r\n}\r\n.shopel_container:nth-of-type(9n) {\r\n  background: #0c620c;\r\n  grid-column:4/5;\r\n\r\n\r\n}\r\n.shopel_container:nth-of-type(10n) {\r\n  background: #0c620c;\r\n    grid-column:2/3;\r\n\r\n\r\n}\r\n.shopel_container:nth-of-type(11n) {\r\n  background: #0c620c;\r\n  grid-column:3/4;\r\n\r\n\r\n}\r\nform{\r\n  border-color: black;\r\n\r\n}\r\n\r\n/*about us <------------------------------------------------------------------------------------------------------->*/\r\n.containerAboutUs {\r\n  display: grid;\r\n  height: 100vh;\r\n\r\n  grid-template-columns: 400px auto 400px auto;\r\n  grid-template-rows: 100px 80px auto 400px auto;\r\n  grid-gap: 20px;\r\n}\r\n\r\n.logo {\r\n  text-decoration: none;\r\n  float: left;\r\n  margin-top: -60px;\r\n  list-style-type: none;\r\n}\r\n\r\nheader {\r\n  grid-column: 1/5;\r\n  grid-row: 1/2;\r\n  font-size: 26px;\r\n  background-color: #fdfdfe;\r\n}\r\n.containerAboutUs main{\r\n  grid-column: 1/2;\r\n  grid-row: 2/3;\r\n}\r\n.raksana {\r\n  grid-column: 1/2;\r\n  grid-row: 3/4;\r\n}\r\n.raksanaImage{\r\n  grid-column: 2/3;\r\n  grid-row: 3/4;\r\n  margin: 0 auto;\r\n}\r\n.julia {\r\n  grid-column: 3/4;\r\n  grid-row: 3/4;\r\n}\r\n.juliaImage{\r\n  grid-column: 4/5;\r\n  grid-row: 3/4;\r\n  margin: 0 auto;\r\n}\r\n.contactInfo {\r\n  grid-column: 1/2;\r\n  grid-row: 4/5;\r\n}\r\nfooter{\r\n  grid-column: 1/5;\r\n  grid-row: 5/6;\r\n}\r\n\r\n/*cart <------------------------------------------------------------------------------------------------------->*/\r\n.containerKaufen {\r\n  display: grid;\r\n\r\n  grid-template-columns: 300px auto;\r\n  grid-template-rows: 100px auto;\r\n}\r\n.formularsetung{\r\n  grid-column: 2/3;\r\n  grid-row: 2/3;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media screen and (max-width: 1400px) {\r\n  .containerHome {\r\n    grid-template-columns: auto auto 300px;\r\n    grid-template-rows: 100px auto auto 100px auto auto 100px;\r\n  }\r\n  header {\r\n    grid-column: 1/4;\r\n    grid-row: 1/2;\r\n  }\r\n  blockquote{\r\n    grid-column: 1/4;\r\n    grid-row: 2/3;\r\n  }\r\n  .sidebarLeft{\r\n    grid-column: 3/4;\r\n    grid-row: 3/5;\r\n  }\r\n  main{\r\n    grid-column: 1/2;\r\n    grid-row: 3/5;\r\n  }\r\n  .imgInMiddle{\r\n    grid-column: 2/3;\r\n    grid-row: 3/4;\r\n  }\r\n  .text1{\r\n    grid-column: 2/3;\r\n    grid-row: 4/5;\r\n  }\r\n  .sidebarRight{\r\n    grid-column: 3/4;\r\n    grid-row: 5/7;\r\n  }\r\n\r\n  footer{\r\n    grid-column: 1/4;\r\n    grid-row: 7/8;\r\n  }\r\n\r\n  /*about us <------------------------------------------------------------------------------------------------------->*/\r\n  .containerAboutUs {\r\n\r\n    grid-template-columns: 400px auto 1px ;\r\n    grid-template-rows: 100px 80px auto 400px auto auto;\r\n  }\r\n\r\n  .containerAboutUs main{\r\n    grid-column: 1/3;\r\n    grid-row: 2/3;\r\n  }\r\n  .raksana {\r\n    grid-column: 1/2;\r\n    grid-row: 3/4;\r\n  }\r\n  .raksanaImage{\r\n    grid-column: 2/3;\r\n    grid-row: 3/4;\r\n  }\r\n  .julia {\r\n    grid-column: 1/2;\r\n    grid-row: 4/5;\r\n  }\r\n  .juliaImage{\r\n    grid-column: 2/3;\r\n    grid-row: 4/5;\r\n  }\r\n  .contactInfo {\r\n    grid-column: 1/2;\r\n    grid-row: 5/6;\r\n  }\r\n  footer{\r\n    grid-column: 1/3;\r\n    grid-row: 6/7;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 1000px) {\r\n  .containerHome {\r\n    grid-template-columns: auto auto;\r\n    grid-template-rows: 100px auto auto 100px auto auto auto 100px;\r\n  }\r\n\r\n  header {\r\n    grid-column: 1/3;\r\n    grid-row: 1/2;\r\n  }\r\n  blockquote{\r\n    grid-column: 1/3;\r\n    grid-row: 2/3;\r\n  }\r\n\r\n  .sidebarLeft {\r\n    grid-column: 1/2;\r\n    grid-row: 5/7;\r\n    padding: 20px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n  main {\r\n    grid-column: 1/2;\r\n    grid-row: 3/5;\r\n  }\r\n\r\n  .imgInMiddle {\r\n    grid-column: 2/3;\r\n    grid-row: 3/4;\r\n    margin: 0 auto;\r\n  }\r\n\r\n  .text1 {\r\n    grid-column: 2/3;\r\n    grid-row: 4/5;\r\n    margin: -30px;\r\n  }\r\n\r\n  .sidebarRight {\r\n    grid-column: 2/3;\r\n    grid-row: 5/7;\r\n    padding: 20px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n  footer {\r\n    grid-column: 1/3;\r\n    grid-row: 7/8;\r\n  }\r\n\r\n  /*about us <------------------------------------------------------------------------------------------------------->*/\r\n  .containerAboutUs {\r\n    grid-template-columns: 400px auto ;\r\n    grid-template-rows: 100px 80px auto 400px auto auto;\r\n  }\r\n\r\n  .containerAboutUs main{\r\n    grid-column: 1/3;\r\n    grid-row: 2/3;\r\n  }\r\n  .raksana {\r\n    grid-column: 1/2;\r\n    grid-row: 3/4;\r\n  }\r\n  .raksanaImage{\r\n    grid-column: 2/3;\r\n    grid-row: 3/4;\r\n  }\r\n  .julia {\r\n    grid-column: 1/2;\r\n    grid-row: 4/5;\r\n  }\r\n  .juliaImage{\r\n    grid-column: 2/3;\r\n    grid-row: 4/5;\r\n  }\r\n  .contactInfo {\r\n    grid-column: 1/2;\r\n    grid-row: 5/6;\r\n  }\r\n  footer{\r\n    grid-column: 1/2;\r\n    grid-row: 6/7;\r\n  }\r\n\r\n  /*cart <------------------------------------------------------------------------------------------------------->*/\r\n  .containerKaufen {\r\n    grid-template-columns: auto;\r\n    grid-template-rows: 100px auto;\r\n  }\r\n  .formularsetung {\r\n    grid-column: 1/span 1;\r\n    grid-row: 2/3;\r\n    margin: 0 auto;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 600px) {\r\n  .containerHome {\r\n    grid-template-columns: auto;\r\n    grid-template-rows: 100px auto auto 100px auto auto auto auto auto 100px;\r\n  }\r\n\r\n  .navl:nth-of-type(1){\r\n    margin-top:-50px;\r\n    margin-left: -60px;\r\n  }\r\n\r\n  .navl:last-of-type{\r\n    margin-top:-95px;\r\n    margin-right:-40px;\r\n  }\r\n\r\n  header {\r\n    grid-column: 1/ span 1;\r\n    grid-row: 1/2;\r\n  }\r\n  blockquote{\r\n    grid-column: 1/ span 1;\r\n    grid-row: 2/3;\r\n    margin: 30px auto;\r\n  }\r\n\r\n  main {\r\n    grid-column: 1/ span 1;\r\n    grid-row: 3/4;\r\n  }\r\n\r\n  .imgInMiddle {\r\n    grid-column: 1/span 1;\r\n    grid-row: 4/5;\r\n\r\n  }\r\n\r\n  .text1 {\r\n    grid-column: 1/span 1;\r\n    grid-row: 5/6;\r\n    padding: 10px;\r\n    margin-top: 250px;\r\n    margin-left: 10px;\r\n  }\r\n\r\n  .sidebarLeft {\r\n    grid-column: 1/span 1;\r\n    grid-row: 6/8;\r\n  }\r\n\r\n  .sidebarRight {\r\n    grid-column: 1/span 1;\r\n    grid-row: 8/10;\r\n  }\r\n\r\n  footer {\r\n    grid-column: 1/span 1;\r\n    grid-row: 10/11;\r\n    margin-top: 525px;\r\n  }\r\n\r\n  /*about us <------------------------------------------------------------------------------------------------------->*/\r\n  .containerAboutUs {\r\n    grid-template-columns: auto;\r\n    grid-template-rows: 100px 80px auto 400px auto auto auto auto;\r\n  }\r\n\r\n  .containerAboutUs main{\r\n    grid-column: 1/ span 1;\r\n    grid-row: 2/3;\r\n  }\r\n  .raksana {\r\n    grid-column: 1/span 1;\r\n    grid-row: 3/4;\r\n  }\r\n  .raksanaImage{\r\n    grid-column: 1/span 1;\r\n    grid-row: 4/5;\r\n  }\r\n  .julia {\r\n    grid-column: 1/span 1;\r\n    grid-row: 5/6;\r\n  }\r\n  .juliaImage{\r\n    grid-column: 1/span 1;\r\n    grid-row: 6/7;\r\n  }\r\n  .contactInfo {\r\n    grid-column: 1/span 1;\r\n    grid-row: 7/8;\r\n  }\r\n  footer{\r\n    grid-column: 1/span 1;\r\n    grid-row: 8/9;\r\n  }\r\n  /*cart <------------------------------------------------------------------------------------------------------->*/\r\n  .containerKaufen {\r\n    grid-template-columns: auto;\r\n    grid-template-rows: 100px auto;\r\n  }\r\n  .formularsetung {\r\n    grid-column: 1/span 1;\r\n    grid-row: 2/3;\r\n    margin: 0 auto;\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/m101Abschlussprojekt.css b/css/m101Abschlussprojekt.css
+--- a/css/m101Abschlussprojekt.css	(revision 120ff0ef42615a6af2e0a26a06fc0a023619fb07)
++++ b/css/m101Abschlussprojekt.css	(date 1607071987131)
+@@ -123,6 +123,7 @@
+ }
+ 
+ /*shop <------------------------------------------------------------------------------------------------------->*/
++
+ .Shop_container{
+   grid-template-columns: 300px auto 1% ;
+   grid-template-rows: 100px 500px auto auto ;
+@@ -143,12 +144,11 @@
+ grid-row:2/3;
+ background-color: gray;
+ }
+-
+-.shopcontainer{}
++.shopcontainer{
+ 
+  caret-color: white;
+  display: grid;
+- grid-template-row:auto 50% 50%px auto;
++ grid-template-row:5% 200px 200px 5%;
+  grid-template-column: 5% 250px 250px 250px 5%;
+  grid-gap:5px;
+  margin:0;
+@@ -158,72 +158,83 @@
+ 
+ 
+ }
++
+ .shopel_container:first-of-type{
+   background: #d7d72d;
+   text-decoration: none;
+   grid-column:2/3;
++  grid-row:2/3;
+ 
+ 
+ }
+ .shopel_container:nth-of-type(2n) {
+   background: black;
+   grid-column:3/4;
++    grid-row:2/3;
+ 
+ 
+ }
+ .shopel_container:nth-of-type(3n) {
+   background: black;
+   grid-column:4/5;
++    grid-row:2/3;
+ 
+ }
+ .shopel_container:nth-of-type(4n) {
+   background: #0c620c;
+   grid-column:2/3;
++    grid-row:3/4;
+ 
+ }
+ .shopel_container:nth-of-type(5n) {
+   background: #0c620c;
+   grid-column:3/4;
++     grid-row:3/4;
+ 
+ 
+ }
+ .shopel_container:nth-of-type(6n) {
+   background: #0c620c;
+   grid-column:4/5;
++     grid-row:3/4;
+ 
+ 
+ }
+ .shopel_container:nth-of-type(7n) {
+   background: #0c620c;
+     grid-column:2/3;
+-
++   grid-row:4/5;
+ 
+ }
+ 
+ .shopel_container:nth-of-type(8n) {
+   background: #0c620c;
+   grid-column:3/4;
+-
++   grid-row:4/5;
+ 
+ }
+ .shopel_container:nth-of-type(9n) {
+   background: #0c620c;
+   grid-column:4/5;
+-
++   grid-row:4/5;
+ 
+ }
+ .shopel_container:nth-of-type(10n) {
+   background: #0c620c;
+     grid-column:2/3;
++       grid-row:5/6;
+ 
+ 
+ }
+ .shopel_container:nth-of-type(11n) {
+   background: #0c620c;
+   grid-column:3/4;
+-
++   grid-row:5/6;
+ 
+ }
++
++
++
+ form{
+   border-color: black;
+ 
+@@ -457,6 +468,25 @@
+     grid-column: 1/2;
+     grid-row: 6/7;
+   }
++  /*shop_______________________________________________________________________________________________________>*/
++.Shop_container{
++  grid-template-columns: 200px auto 1% ;
++  grid-template-rows: auto auto auto auto ;
++  grid-gap: 20px;
++ display: grid;
++}
++.Filter_container{
++    border-color: black;
++    border-width: thin;
++    grid-column: 1/2;
++    grid-row: 2/4;
++    background-color: grey;
++    font-size:30px;
++    padding:
++}
++
++
++
+ 
+   /*cart <------------------------------------------------------------------------------------------------------->*/
+   .containerKaufen {
+Index: .idea/PC.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <link rel=\"stylesheet\" href=\"../css/m101Abschlussprojekt.css\">\r\n    <title>R&J Shop</title>\r\n</head>\r\n<body>\r\n<div class=\"Shop_container\">\r\n    <header>\r\n        <div class=\"navigation\">\r\n            <ul class=\"ulnav\" >\r\n                <li class=\"navl\"><img src=\"../img/logoR&J.PNG\" href=\"home.html\"></img></li>\r\n                <li class=\"navl\"> <a href=\"homeSeite.html\">Home</a></li>\r\n                <li class=\"navl\"><a href=\"shop.html\">Shop</a></li>\r\n                <li class=\"navl\"><a href=\"aboutUs.html\">About us</a></li>\r\n                <li class=\"navl\"><a href=\"kaufen.html\"><img src=\"..\\img\\Cart-icon.jpg\"></a></li>\r\n                <input type=\"text\" id=\"gekauft\" value=\"0\">\r\n            </ul>\r\n        </div>\r\n    </header>\r\n\r\n\r\n    <aside class=\"Filter_container\">\r\n\r\n        <a href=\"PC_Games.html\">PC & Games </a><br>\r\n        <a href=\"PC.html\"> PC </a>\r\n        <br>\r\n        <a href=\"Games.html\">Games</a>\r\n\r\n    </aside>\r\n    <aside class=\"shopelemente\">\r\n        <div class=\"shopcontainer\">\r\n\r\n            <div class=\"shopel_container\">\r\n                <img src=\"../img/luis-villasmil-ITFwHdPEED0-unsplash.jpg\" width=\"250px\" height=\"166px\" alt=\"fortnite\">\r\n                <p>Fortnite: Gratis</p><button onclick=\"buy();\">Buy</button>\r\n\r\n            </div>\r\n            <div class=\"shopel_container\">\r\n                <img src=\"../img/MSI.jpg\" width=\"250px\" height=\"376px\" alt=\"MSI\">\r\n                <p>MSI: 5000.00 CHF</p><button onclick=\"buy();\">Buy</button>\r\n            </div>\r\n            <div class=\"shopel_container\">\r\n                <img src=\"../img/imac.jpg\" width=\"250px\" height=\"166px\" alt=\"IMac\">\r\n                <p>IMac: 1300.00 CHF</p><button onclick=\"buy();\">Buy</button>\r\n\r\n            </div>\r\n            <div class=\"shopel_container\">\r\n                <img src=\"../img/Lenovo.jpg\" width=\"250px\" height=\"167px\" alt=\"Lenovo\">\r\n                <p>Lenovo: 800CHF</p><button onclick=\"buy();\">Buy</button>\r\n            </div>\r\n            <div class=\"shopel_container\">\r\n                <img src=\"../img/hp-hq-tre-core-i5-laptop.jpg\" width=\"250px\" height=\"250px\" alt=\"hp\">\r\n                <p>HP Core i5: 800CHF</p><button onclick=\"buy();\">Buy</button>\r\n            </div>\r\n            <div class=\"shopel_container\">\r\n                <img src=\"../img/hp-core-i3-laptop.jpg\" width=\"250px\" height=\"250px\" alt=\"HPC3\">\r\n                <p>HP Core i3: 300CHF</p><button onclick=\"buy();\">Buy</button>\r\n            </div>\r\n\r\n\r\n        </div>\r\n\r\n        <script type=\"text/javascript\">\r\n    var zahl=0;\r\n    function buy(){\r\n    zahl++;\r\n    document.getElementById('gekauft').value=zahl;\r\n\r\n\r\n\r\n    }\r\n\r\n\r\n</script>\r\n    </aside>\r\n    <aside class=\"Warenkorbinhalt\"></aside>\r\n    <footer class=\"fuss\"></footer>\r\n</div>\r\n</body>\r\n\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/PC.html b/.idea/PC.html
+--- a/.idea/PC.html	(revision 120ff0ef42615a6af2e0a26a06fc0a023619fb07)
++++ b/.idea/PC.html	(date 1607070080880)
+@@ -38,7 +38,7 @@
+ 
+             </div>
+             <div class="shopel_container">
+-                <img src="../img/MSI.jpg" width="250px" height="376px" alt="MSI">
++                <img src="../img/MSI.jpg" width="166px" height="250px" alt="MSI">
+                 <p>MSI: 5000.00 CHF</p><button onclick="buy();">Buy</button>
+             </div>
+             <div class="shopel_container">
