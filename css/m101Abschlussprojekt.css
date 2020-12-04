@@ -133,6 +133,9 @@ footer{
  display: grid;
  margin-right:5px;
 }
+button {
+  padding: 15px;
+}
 .Filter_container{
     border-color: black;
     border-width: thin;
