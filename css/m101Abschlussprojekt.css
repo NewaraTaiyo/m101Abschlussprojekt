@@ -127,10 +127,11 @@ footer{
 
 /*shop <------------------------------------------------------------------------------------------------------->*/
 .Shop_container{
-  grid-template-columns: 300px auto 1% ;
-  grid-template-rows: 100px 500px auto auto ;
+  grid-template-columns: 300px auto auto auto ;
+  grid-template-rows: 100px  auto auto auto ;
   grid-gap: 20px;
  display: grid;
+ margin-right:5px;
 }
 .Filter_container{
     border-color: black;
@@ -141,89 +142,90 @@ footer{
     font-size:50px;
 }
 .shopelemente{
-  margin-right:10px;
   grid-column:2/2;
   grid-row:2/3;
   background-color: gray;
 }
-
 .shopcontainer {
 
   caret-color: white;
-  display: grid;
-  grid-template-row: auto 50% 50% px auto;
-  grid-template-column: 5% 250px 250px 250px 5%;
+  display: flex;
+flex-wrap:wrap;
+  flex-direction:row;
+
   grid-gap: 5px;
   margin: 0;
+  margin-left:10px;
+  margin-bottom:10px;
   margin-top: 10px;
   padding: 0;
 }
 
 
-
-.shopel_container:first-of-type{
-  background: #d7d72d;
-  text-decoration: none;
-  grid-column:2/3;
-
+.shopel_container{
+  background-color:#00334d;
 
 }
-.shopel_container:nth-of-type(2n) {
-  background: black;
-  grid-column:3/4;
+.shopel_container:first-of-type{
 
+  text-decoration: none;
+  order:1;
+}
+.shopel_container:nth-of-type(2n) {
+
+  order:2;
 
 }
 .shopel_container:nth-of-type(3n) {
-  background: black;
-  grid-column:4/5;
+
+  order:3;
 
 }
 .shopel_container:nth-of-type(4n) {
-  background: #0c620c;
+
   grid-column:2/3;
 
 }
 .shopel_container:nth-of-type(5n) {
-  background: #0c620c;
-  grid-column:3/4;
+
+   order:5;
 
 
 }
 .shopel_container:nth-of-type(6n) {
-  background: #0c620c;
-  grid-column:4/5;
 
+ order:5;
 
 }
 .shopel_container:nth-of-type(7n) {
-  background: #0c620c;
-    grid-column:2/3;
+
+ order:6;
 
 
 }
 
 .shopel_container:nth-of-type(8n) {
-  background: #0c620c;
-  grid-column:3/4;
+
+   order:7;
 
 
 }
 .shopel_container:nth-of-type(9n) {
-  background: #0c620c;
-  grid-column:4/5;
+
+ order:8;
 
 
 }
 .shopel_container:nth-of-type(10n) {
-  background: #0c620c;
-    grid-column:2/3;
+
+     order:9;
 
 
 }
 .shopel_container:nth-of-type(11n) {
-  background: #0c620c;
-  grid-column:3/4;
+
+
+ order:10;
 
 
 }
@@ -437,6 +439,7 @@ footer{
     grid-template-columns: 400px auto ;
     grid-template-rows: 100px 80px auto 400px auto auto;
   }
+
 
   .containerAboutUs main{
     grid-column: 1/3;
